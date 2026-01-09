@@ -5,7 +5,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body {
+    background-color: whitesmoke;
+}
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -199,4 +201,115 @@ button {
     background-color: black;
     color: black;
     font-weight: bold;
+}
+.problems-section {
+    max-width: 1270px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    
+}
+.problem-text h1 {
+    text-align: center;
+    padding: 40px 20px 10px 20px;
+    font-size: 45px;
+}
+.problem-text p {
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+    font-size: 15px;
+    color: rgba(98, 115, 130, 1);
+    font-weight: 600;
+}
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card1 {
+    width: 300px;
+    height: 300px;
+  
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+.card1 img{
+    width: 20%;
+    height: 55px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 45px;
+    padding: 12px;
+    
+}
+.card1 h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.card1:hover {
+    box-shadow: 0 8px 8px rgba(249, 85, 85, 1);
+}
+.solutions-section {
+    max-width: 1270px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px 0px 50px 0px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 100px;
+}
+.solution-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+}
+.tick-item {
+    display: flex;          
+    align-items: center;    
+    gap: 10px;             
+    margin-bottom: 10px;    
+}
+
+.tick-item img {
+    width: 24px;           
+    height: 24px;
+}
+
+.tick-item p {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.last-line {
+    margin-bottom: 30px;
+}
+.last-h1 {
+    margin-bottom: 20px;
+}
+.solution-text h4 {
+    margin-top: 0px;
+    
+    color: rgba(48, 184, 104, 1);
+    font-weight: 600;
+}
+.solution-text p {
+    color: rgba(98, 115, 130, 1);
+}
+.solution-text h1 {
+    font-size: 45px;
+}
+.solution-image:hover {
+    box-shadow: 0 8px 8px rgba(48, 184, 104, 1);
 }
